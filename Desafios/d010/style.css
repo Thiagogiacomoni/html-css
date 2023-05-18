@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: 'fonte';
+    src: url('fontes/idroid.otf');
+
+}
+body {
+    font-family: 'roboto';
+    font-weight: 575;
+    background-color: #76e49b;
+}
+header {
+    font-family: 'roboto';
+    background-color: #2c8549;
+    padding: 10px 10px 10px 10px;
+    border-radius: 1px 1px 1px 1px;
+    color: white;
+    background-image: linear-gradient(to bottom, #44af68 , #154425 );
+}
+header a:hover {
+    background-color: #76e49b42;
+    padding: 10px 10px 10px 10px;
+    border: 10px;
+    border-radius: 1px 1px 1px 1px;
+}
+header > h1 {
+    text-align: center;
+}
+header > p {
+    text-align: center;
+}
+nav {
+    font-weight: bold;
+}
+nav > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+article {
+	background-color: white;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.400);
+	border-radius: 0px 0px 5px 5px;
+	padding: 20px;
+	padding-bottom: 10px;
+    margin: 0px 150px 0px 150px;
+}
+article > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+article > p {
+    text-align: justify;
+    font-size: 16px;
+}
+h2 {
+    font-family: 'fonte';
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 77, 0);
+}
+p > a {
+    color: rgb(2, 58, 2);
+    text-decoration: none;
+    font-weight: bold;
+}
+p a:hover {
+    color: white;
+    background-color: rgb(2, 58, 2);
+}
+.imagem {
+    position: relative;
+    width: 100%;
+    float: none;
+}
+.palavra {
+    color: green;   
+    font-weight: bold;
+
+}
+article > h3 {
+    font-family: 'fonte';
+    font-size: 25px;
+    text-align: justify;
+    color: rgb(0, 77, 0);
+    background-image: linear-gradient(to right , rgb(87, 214, 87), white);
+    background-attachment: fixed;
+    height: 40px;
+}
+.pequena {
+	display: block;
+	width: 200px;
+	margin: auto;
+}
+article > iframe {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(0, 53, 0);
+}
+#extra {
+    margin: auto;
+    padding: 0px;
+    background-color: rgb(213, 255, 213);
+}
+#extra > p {
+    padding: 10px 10px 30px 10px;
+}
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(21, 131, 63);
+    color: white;
+    border: 10px;
+    padding: 10px;
+    border-radius: 3px 3px 0px 0px;
+    margin: 0px;
+}
+ul > li {
+    width: 230px;
+    margin: 0;
+    overflow: hidden;
+  }
+  ul li:nth-child(odd) {
+    float:left;
+  }
+  ul {
+    padding: 40px 40px 40px 10px;
+    font-weight: bold;
+  }
+  footer {
+    background-color: rgb(0, 49, 0);
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+footer > p {
+    margin: 1px 0px 1px 0px;
+}
+footer > a {
+    color: white;
+}
+footer a:hover {
+    background-color: rgb(0, 56, 7);
+    color: white;
+}
