@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         caption {
             font-size: 1.5em;
@@ -29,6 +30,11 @@
         thead, tfoot {
             background-color: rgb(37, 37, 37);
             color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(37, 37, 37);
         }
         tbody > tr:nth-child(even) /* even(par), odd(impar) */ {
             background-color: rgb(121, 121, 121);
