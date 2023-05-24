@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea voluptate itaque perferendis dolorem molestias nam aliquid ipsam temporibus perspiciatis voluptatum earum accusantium, expedita consequuntur asperiores maxime possimus dolores laudantium porro?
+    </p>
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="https://thiagogiacomoni.github.io/projeto-cordel/" target="frame">Projeto cordel</a></li>
+        <li><a href="https://thiagogiacomoni.github.io/projeto-android/" target="frame">Projeto android</a></li>
+    </ul>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis asperiores at autem eligendi corrupti deleniti nisi aspernatur ipsa quasi possimus, ipsam fugiat ducimus esse. Aliquam nisi culpa harum est dolorum.
+    </p>
+    <iframe id="tela" name="frame" srcdoc="<h1> Escolha uma das opções acima</h1>">
+        <p>Infelizmente seu navegador não é compatível com o conteúdo.</p>
+    </iframe>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur vero dicta sit beatae expedita voluptatem aperiam ex tempore obcaecati necessitatibus, eligendi natus quod enim temporibus nesciunt dolore reprehenderit? Dicta, autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nostrum dolor tempora repudiandae dignissimos, repellendus soluta error, delectus perferendis earum, molestias doloremque. Mollitia distinctio consequatur soluta doloremque quibusdam minus quia?
+    </p>
+</body>
+</html>
