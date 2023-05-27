@@ -10,15 +10,23 @@
     <h1>Exemplo de formulário</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
         <fieldset>
+            <!-- No input radio o nome tem que ser igual -->
             <legend>Sexo</legend>
-            <label for="isxmas"><input type="radio" name="sxmas" id="isxmas">Masculino</label>
+            <input type="radio" name="sexo" id="isxmas" value="M">
+            <label for="isxmas"> Masculino</label><br>
+            <input type="radio" name="sexo" id="isxfem" value="F">
+            <label for="isxfem"> Feminino</label>
         </fieldset>
         <fieldset>
             <legend>Esportes favoritos</legend>
-            <label for="iesfut"><input type="checkbox" name="esfut" id="iesfut"> Futebol<br></label>
-            <label for="iesbas"><input type="checkbox" name="esbas" id="iesbas"> Basquete<br></label>
-            <label for="iesnat"><input type="checkbox" name="esnat" id="iesnat"> Natação<br></label>
-            <label for="iesten"><input type="checkbox" name="esten" id="iesten"> Tênis</label>
+            <input type="checkbox" name="esfut" id="iesfut" checked>
+            <label for="iesfut"> Futebol</label><br>
+            <input type="checkbox" name="esbas" id="iesbas">
+            <label for="iesbas"> Basquete<br></label>
+            <input type="checkbox" name="esnat" id="iesnat">
+            <label for="iesnat"> Natação<br></label>
+            <input type="checkbox" name="esten" id="iesten">
+            <label for="iesten"> Tênis</label>
         </fieldset>
         <p>
             <input type="submit" value="Enviar">
