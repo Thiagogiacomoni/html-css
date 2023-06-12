@@ -19,8 +19,8 @@
     --bg-url: url(imagens/bg-light.jpg);
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
-    --surface-color-hover: rgba(0, 0, 0, 0.02);
-    --hightlight-color: rgba(0, 0, 0, 0.1);
+    --surface-color-hover: rgba(0, 0, 0, 0.253);
+    --hightlight-color: rgba(0, 0, 0, 0.226);
     --switch-bg-url: url(imagens/sun.svg);
 }
 body * {
@@ -32,7 +32,7 @@ body {
 }
 #container {
     width: 360px;
-    margin: 56px auto 0px;
+    margin: 56px auto 0;
     padding: 0px 24px;
 
 }
@@ -62,17 +62,17 @@ body {
     width: 32px;
     height: 32px;
     background: white var(--switch-bg-url) no-repeat center;
-    border: 0px;
+    border: 0;
     border-radius: 50%;
     position: absolute;
     top: 50%;
-    left: 0px;
+    left: 0;
     z-index: 1;
     transform: translateY(-50%);
 }
-.ligth #switch button {
-    right: 0px;
-    left: initial;
+.light #switch button {
+    right: 0;
+    left: 50%;
 }
 #switch span {
     display: block;
@@ -90,7 +90,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 24px 0px;
+    padding: 24px 0;
 }
 ul li a {
     display: flex;
@@ -115,7 +115,7 @@ ul li a:hover {
 #social-links {
     display: flex;
     justify-content: center;
-    padding: 24px 0px;
+    padding: 24px 0;
     font-size: 24px;
 }
 #social-links a {
@@ -130,7 +130,7 @@ ul li a:hover {
     background: var(--hightlight-color);
 }
 footer {
-    padding: 24px 0px;
+    padding: 24px 0;
     text-align: center;
     font-size: 14px;
 }
